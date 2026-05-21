@@ -42,9 +42,22 @@ Per Brock's package: Starter ($515) included 1 revision round. Additional rounds
 
 ---
 
+### Round 3 — 2026-05-21 (post-free-round, billable)
+
+| # | Date | Change | Files | Commit | Status |
+|---|------|--------|-------|--------|--------|
+| 8 | 2026-05-21 | Removed `NMLS # 33794` reference from the top body paragraph (compliance number now lives only in the footer disclosure). Brock confirmed the correct number is `337948` and elected to keep the body clean | `index.html` | (pending) | done |
+| 9 | 2026-05-21 | Rewrote the "Something Else You May Find Interesting" section to include baseball alongside MMA. New copy: *"I have had a couple of amateur MMA fights & played baseball through college. Learning to face my fears & be disciplined has helped me commit to trying to be my best personally, professionally, spiritually & in all areas of life."* | `index.html` | (pending) | done |
+| 10 | 2026-05-21 | Changed bottom red CTA button from "Holy Spirit Led Trips" to "Holy Spirit Led Tours" | `index.html` | (pending) | done |
+| 11 | 2026-05-21 | Footer restructured from 2-column compliance row to a full 3-column layout. New center column contains: Brock Walker (name), 813-956-0537 (clickable `tel:`), BrockWalker@BrockWalker.com (clickable `mailto:`), and the "Do What Is Best For People" tagline | `index.html`, `css/style.css` | (pending) | done |
+| 12 | 2026-05-21 | Added `www.TheMortgageMaster.com` as a clickable link beneath the Mortgage Loan Originator compliance line in the footer left column | `index.html` | (pending) | done |
+| 13 | 2026-05-21 | Added `www.HolySpiritLedTours.com` as a clickable link beneath the Fla Seller of Travel compliance line in the footer right column | `index.html` | (pending) | done |
+
+---
+
 ## Decisions on file
 
-- **NMLS numbers — kept exactly as Brock supplied:** body reads `NMLS # 33794`, footer reads `NMLS #337948`. Marc's call (2026-05-21): use Brock's wording verbatim, do not auto-correct.
+- **NMLS numbers — Round 2 vs Round 3:** Round 2 used Brock's wording verbatim (`NMLS # 33794` in body, `#337948` in footer). Round 3 (this round) removed the body reference entirely at Brock's request. Footer disclosure remains `#337948`.
 - **"What I Do" section heading:** kept as just the "What I Do" eyebrow per Brock's literal request; no larger h2 added back in.
 
 ## Open items still on the wish list

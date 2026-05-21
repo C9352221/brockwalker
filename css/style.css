@@ -653,22 +653,59 @@ h1, h2, h3, h4 {
   color: var(--gold);
   border-color: var(--gold);
 }
-.footer-compliance {
+.footer-cols {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 28px;
+  align-items: start;
   padding-top: 28px;
   border-top: 1px solid rgba(255,255,255,0.1);
   font-family: Calibri, Arial, sans-serif;
   font-size: 12px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: rgba(255,255,255,0.65);
 }
-.footer-compliance-left { text-align: left; }
-.footer-compliance-right { text-align: right; }
-.footer-compliance p { margin: 0; }
+.footer-col p { margin: 0; }
+.footer-col-left { text-align: left; }
+.footer-col-center { text-align: center; }
+.footer-col-right { text-align: right; }
+
+.footer-col a {
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.footer-col a:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+.footer-col-center .footer-name {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 22px;
+  color: var(--white);
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+.footer-col-center .footer-contact {
+  font-size: 14px;
+  margin: 2px 0;
+}
+.footer-col-center .footer-contact a {
+  color: rgba(255,255,255,0.9);
+  border-bottom: none;
+}
+.footer-col-center .footer-contact a:hover { color: var(--gold); }
+.footer-col-center .footer-tag {
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 13px;
+  color: var(--gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
 
 .footer-bottom {
   font-size: 13px;
@@ -780,8 +817,9 @@ h1, h2, h3, h4 {
   .btn-primary, .btn-secondary, .btn-blue, .btn-red { font-size: 13px; padding: 14px 22px; letter-spacing: 0.8px; }
   .btn-title { font-size: 14px; letter-spacing: 0.3px; }
 
-  /* Footer compliance stacks on mobile */
-  .footer-compliance { flex-direction: column; gap: 18px; padding-top: 22px; }
-  .footer-compliance-left,
-  .footer-compliance-right { text-align: center; }
+  /* Footer columns stack on mobile */
+  .footer-cols { grid-template-columns: 1fr; gap: 26px; padding-top: 22px; }
+  .footer-col-left,
+  .footer-col-right { text-align: center; }
+  .footer-col-center { order: -1; }
 }
