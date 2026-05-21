@@ -204,6 +204,7 @@ h1, h2, h3, h4 {
   transform: translateY(-2px);
 }
 .btn-full { width: 100%; }
+.btn-title { text-transform: none; letter-spacing: 0.3px; font-size: 16px; }
 
 /* ─────────────────────────────────────────────
    HERO / ABOUT ME (combined top section)
@@ -652,11 +653,27 @@ h1, h2, h3, h4 {
   color: var(--gold);
   border-color: var(--gold);
 }
+.footer-compliance {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.65);
+}
+.footer-compliance-left { text-align: left; }
+.footer-compliance-right { text-align: right; }
+.footer-compliance p { margin: 0; }
+
 .footer-bottom {
   font-size: 13px;
   color: rgba(255,255,255,0.5);
-  padding-top: 22px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 16px;
   width: 100%;
   max-width: 600px;
 }
@@ -761,4 +778,10 @@ h1, h2, h3, h4 {
 
   /* Buttons sizing */
   .btn-primary, .btn-secondary, .btn-blue, .btn-red { font-size: 13px; padding: 14px 22px; letter-spacing: 0.8px; }
+  .btn-title { font-size: 14px; letter-spacing: 0.3px; }
+
+  /* Footer compliance stacks on mobile */
+  .footer-compliance { flex-direction: column; gap: 18px; padding-top: 22px; }
+  .footer-compliance-left,
+  .footer-compliance-right { text-align: center; }
 }
