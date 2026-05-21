@@ -32,13 +32,13 @@ Per Brock's package: Starter ($515) included 1 revision round. Additional rounds
 
 | # | Date | Change | Files | Commit | Status |
 |---|------|--------|-------|--------|--------|
-| 1 | 2026-05-21 | Removed "About Me" eyebrow label above the Brock Walker title | `index.html` | (pending) | done |
-| 2 | 2026-05-21 | Replaced 3 long bio paragraphs with shortened version (Sandusky → Florida → Wells Fargo → 2007 mortgage co. → 20+yr MLO + Christian travel agency + married Rafina 2026) | `index.html` | (pending) | done |
-| 3 | 2026-05-21 | Swapped hero photo from solo `brock-travel-agent.jpg` to new Brock + Rafina hot-air-balloon photo (resized 2735×3260 → 900×1073, optimized 1.5MB → 182 KB, saved as `brock-rafina-balloon.jpg`) | `index.html`, `assets/brock-rafina-balloon.jpg` (new) | (pending) | done |
-| 4 | 2026-05-21 | Shortened pullquote from *"What drives me every day is the desire to do God's will."* to *"I aim to do God's will & be my best."* | `index.html` | (pending) | done |
-| 5 | 2026-05-21 | Removed "Where Faith Meets Work" h2 subtitle under What I Do section (kept "What I Do" eyebrow as the heading) | `index.html` | (pending) | done |
-| 6 | 2026-05-21 | Added two-column compliance disclosures in black footer — left: Core Financial, Inc. NMLS #252580 / Brock Walker / Mortgage Loan Originator NMLS #337948 — right: Star Walker Ministries LLC / Fla Seller of Travel Ref. No. ST44868. New CSS for `.footer-compliance` (desktop side-by-side, mobile stacked) | `index.html`, `css/style.css` | (pending) | done |
-| 7 | 2026-05-21 | Changed bottom CTA buttons from all-caps "MORTGAGES" / "HOLY SPIRIT LED TOURS" to title case "Mortgages" / "Holy Spirit Led Trips". New `.btn-title` CSS class overrides uppercase + tightens letter-spacing | `index.html`, `css/style.css` | (pending) | done |
+| 1 | 2026-05-21 | Removed "About Me" eyebrow label above the Brock Walker title | `index.html` | `c9bf5a6` | done |
+| 2 | 2026-05-21 | Replaced 3 long bio paragraphs with shortened version (Sandusky → Florida → Wells Fargo → 2007 mortgage co. → 20+yr MLO + Christian travel agency + married Rafina 2026) | `index.html` | `c9bf5a6` | done |
+| 3 | 2026-05-21 | Swapped hero photo from solo `brock-travel-agent.jpg` to new Brock + Rafina hot-air-balloon photo (resized 2735×3260 → 900×1073, optimized 1.5MB → 182 KB, saved as `brock-rafina-balloon.jpg`) | `index.html`, `assets/brock-rafina-balloon.jpg` (new) | `c9bf5a6` | done |
+| 4 | 2026-05-21 | Shortened pullquote from *"What drives me every day is the desire to do God's will."* to *"I aim to do God's will & be my best."* | `index.html` | `c9bf5a6` | done |
+| 5 | 2026-05-21 | Removed "Where Faith Meets Work" h2 subtitle under What I Do section (kept "What I Do" eyebrow as the heading) | `index.html` | `c9bf5a6` | done |
+| 6 | 2026-05-21 | Added two-column compliance disclosures in black footer — left: Core Financial, Inc. NMLS #252580 / Brock Walker / Mortgage Loan Originator NMLS #337948 — right: Star Walker Ministries LLC / Fla Seller of Travel Ref. No. ST44868. New CSS for `.footer-compliance` (desktop side-by-side, mobile stacked) | `index.html`, `css/style.css` | `c9bf5a6` | done |
+| 7 | 2026-05-21 | Changed bottom CTA buttons from all-caps "MORTGAGES" / "HOLY SPIRIT LED TOURS" to title case "Mortgages" / "Holy Spirit Led Trips". New `.btn-title` CSS class overrides uppercase + tightens letter-spacing | `index.html`, `css/style.css` | `c9bf5a6` | done |
 
 ---
 
