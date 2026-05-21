@@ -60,6 +60,22 @@ Per Brock's package: Starter ($515) included 1 revision round. Additional rounds
 - **NMLS numbers — Round 2 vs Round 3:** Round 2 used Brock's wording verbatim (`NMLS # 33794` in body, `#337948` in footer). Round 3 (this round) removed the body reference entirely at Brock's request. Footer disclosure remains `#337948`.
 - **"What I Do" section heading:** kept as just the "What I Do" eyebrow per Brock's literal request; no larger h2 added back in.
 
+## Invoicing
+
+**Billed 2026-05-21 — Total: $200.00 (2 × Additional Revision Round @ $100)**
+
+| Round | Changes | Rate | Subtotal |
+|---|---|---|---|
+| Round 2 | 7 changes (items 1–7) | $100.00 | $100.00 |
+| Round 3 | 6 changes (items 8–13) | $100.00 | $100.00 |
+| | | **Total** | **$200.00** |
+
+- Rate matches the published à la carte add-on rate at provb3global.com/shop.html ("Additional Revision Round" @ $100).
+- Stripe Price ID: `price_1TTPLIA4sVJmlCYROZoRHkQ2` × quantity 2
+- Stripe Checkout Session: `cs_live_b1Pq5jWyW8yMkrTIJUwE3w84JVzQoDnzQ9E4vFDzXsR6nr5TJQ9D9D4Avv` (expires ~24 hours after creation; regenerate via cart-checkout worker if it lapses)
+- Bill email: `C:\Users\papow\OneDrive\Writing Archive\Projects\Brock Walker - Personal Site\Revision Bill Email.html`
+- Site stays pre-launch (CNAME still disabled) until payment clears.
+
 ## Open items still on the wish list
 
 - **Old hero photo `brock-travel-agent.jpg` is still in `/assets`.** It's no longer referenced in the live HTML, but it IS still the social-share Open Graph image (`<meta property="og:image">`). Facebook/iMessage previews will continue to show the solo travel-agent photo until/unless we point OG at the new Brock+Rafina photo. Ask if you want this updated.
