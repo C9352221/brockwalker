@@ -46,12 +46,12 @@ Per Brock's package: Starter ($515) included 1 revision round. Additional rounds
 
 | # | Date | Change | Files | Commit | Status |
 |---|------|--------|-------|--------|--------|
-| 8 | 2026-05-21 | Removed `NMLS # 33794` reference from the top body paragraph (compliance number now lives only in the footer disclosure). Brock confirmed the correct number is `337948` and elected to keep the body clean | `index.html` | (pending) | done |
-| 9 | 2026-05-21 | Rewrote the "Something Else You May Find Interesting" section to include baseball alongside MMA. New copy: *"I have had a couple of amateur MMA fights & played baseball through college. Learning to face my fears & be disciplined has helped me commit to trying to be my best personally, professionally, spiritually & in all areas of life."* | `index.html` | (pending) | done |
-| 10 | 2026-05-21 | Changed bottom red CTA button from "Holy Spirit Led Trips" to "Holy Spirit Led Tours" | `index.html` | (pending) | done |
-| 11 | 2026-05-21 | Footer restructured from 2-column compliance row to a full 3-column layout. New center column contains: Brock Walker (name), 813-956-0537 (clickable `tel:`), BrockWalker@BrockWalker.com (clickable `mailto:`), and the "Do What Is Best For People" tagline | `index.html`, `css/style.css` | (pending) | done |
-| 12 | 2026-05-21 | Added `www.TheMortgageMaster.com` as a clickable link beneath the Mortgage Loan Originator compliance line in the footer left column | `index.html` | (pending) | done |
-| 13 | 2026-05-21 | Added `www.HolySpiritLedTours.com` as a clickable link beneath the Fla Seller of Travel compliance line in the footer right column | `index.html` | (pending) | done |
+| 8 | 2026-05-21 | Removed `NMLS # 33794` reference from the top body paragraph (compliance number now lives only in the footer disclosure). Brock confirmed the correct number is `337948` and elected to keep the body clean | `index.html` | `cbe18bc` | done |
+| 9 | 2026-05-21 | Rewrote the "Something Else You May Find Interesting" section to include baseball alongside MMA. New copy: *"I have had a couple of amateur MMA fights & played baseball through college. Learning to face my fears & be disciplined has helped me commit to trying to be my best personally, professionally, spiritually & in all areas of life."* | `index.html` | `cbe18bc` | done |
+| 10 | 2026-05-21 | Changed bottom red CTA button from "Holy Spirit Led Trips" to "Holy Spirit Led Tours" | `index.html` | `cbe18bc` | done |
+| 11 | 2026-05-21 | Footer restructured from 2-column compliance row to a full 3-column layout. New center column contains: Brock Walker (name), 813-956-0537 (clickable `tel:`), BrockWalker@BrockWalker.com (clickable `mailto:`), and the "Do What Is Best For People" tagline | `index.html`, `css/style.css` | `cbe18bc` | done |
+| 12 | 2026-05-21 | Added `www.TheMortgageMaster.com` as a clickable link beneath the Mortgage Loan Originator compliance line in the footer left column | `index.html` | `cbe18bc` | done |
+| 13 | 2026-05-21 | Added `www.HolySpiritLedTours.com` as a clickable link beneath the Fla Seller of Travel compliance line in the footer right column | `index.html` | `cbe18bc` | done |
 
 ---
 
