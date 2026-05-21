@@ -42,11 +42,14 @@ Per Brock's package: Starter ($515) included 1 revision round. Additional rounds
 
 ---
 
-## Open flags for Brock's review
+## Decisions on file
 
-- **NMLS number discrepancy.** Marc/Brock — please confirm: the body text reads *"Mortgage Loan Originator NMLS # 33794"* (5 digits, exactly as supplied) while the footer compliance reads *"Mortgage Loan Originator NMLS #337948"* (6 digits, exactly as supplied). NMLS IDs are typically 6 digits — the body version is likely a typo missing the final "8". Recommend updating both to match.
-- **"Where Faith Meets Work" removal** left the "What I Do" section with only a small eyebrow label as its heading (no large h2 title). That matches the literal request. If Brock prefers a proper-sized section heading instead, we can promote "What I Do" to an h2.
-- **Old hero photo `brock-travel-agent.jpg` is still in `/assets`** — it's no longer referenced in the live HTML but is referenced in the social-share Open Graph `<meta property="og:image">` tag. If you want Facebook/iMessage previews to show the new Brock+Rafina photo too, ask me to update the OG image as well.
+- **NMLS numbers — kept exactly as Brock supplied:** body reads `NMLS # 33794`, footer reads `NMLS #337948`. Marc's call (2026-05-21): use Brock's wording verbatim, do not auto-correct.
+- **"What I Do" section heading:** kept as just the "What I Do" eyebrow per Brock's literal request; no larger h2 added back in.
+
+## Open items still on the wish list
+
+- **Old hero photo `brock-travel-agent.jpg` is still in `/assets`.** It's no longer referenced in the live HTML, but it IS still the social-share Open Graph image (`<meta property="og:image">`). Facebook/iMessage previews will continue to show the solo travel-agent photo until/unless we point OG at the new Brock+Rafina photo. Ask if you want this updated.
 
 ---
 
