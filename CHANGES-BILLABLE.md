@@ -55,6 +55,17 @@ Per Brock's package: Starter ($515) included 1 revision round. Additional rounds
 
 ---
 
+### Courtesy change — 2026-11-13 (NOT billed, one-time courtesy per Marc)
+
+| # | Date | Change | Files | Commit | Status |
+|---|------|--------|-------|--------|--------|
+| 14 | 2026-11-13 | Hero subtitle: "Work" now gold to match "Faith" | `index.html` | (this commit) | live |
+| 15 | 2026-11-13 | Pullquote: "my best" now gold to match "God's will" | `index.html` | (this commit) | live |
+
+Brock asked for these two as free changes. Marc did them as a one-time courtesy; future changes go back to the $100 revision-round rate.
+
+---
+
 ## Decisions on file
 
 - **NMLS numbers — Round 2 vs Round 3:** Round 2 used Brock's wording verbatim (`NMLS # 33794` in body, `#337948` in footer). Round 3 (this round) removed the body reference entirely at Brock's request. Footer disclosure remains `#337948`.
